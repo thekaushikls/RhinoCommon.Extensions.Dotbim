@@ -41,7 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="MeshExtensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -49,7 +49,7 @@
       <Version>1.1.2</Version>
     </PackageReference>
     <PackageReference Include="RhinoCommon">
-      <Version>8.8.24158.3001-rc</Version>
+      <Version>7.37.24004.15001-rc</Version>
     </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
